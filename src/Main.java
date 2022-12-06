@@ -47,6 +47,9 @@ public class Main {
             case 3:
                 twoNum= "thirty " + singleDigit(last);
                 break;
+            case 5:
+                twoNum = "fifty " + singleDigit(last);
+                break;
             default:
                 twoNum = singleDigit(first)+"ty " + singleDigit(last);
                 break;
